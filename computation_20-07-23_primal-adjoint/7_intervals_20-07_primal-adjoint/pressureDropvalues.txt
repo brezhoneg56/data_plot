@@ -1,0 +1,94 @@
+
+
+=============================================================================
+
+                         LOGFILE 7_intervals_20-07_primal-adjoint
+
+=============================================================================
+
+
+
+Shooting of sweep1:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep1: 1 minutes and 36.38 seconds.
+
+pressureDrop is     5.03906e-08
+
+Elapsed time for linearisedPimpleDyMFoam in sweep1: 1 minutes and 2.804 seconds.
+
+Elapsed time for subintervals in sweep1: 2 minutes and 53.463 seconds.
+
+
+Shooting of sweep2:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep2: 1 minutes and 21.315 seconds.
+
+pressureDrop is     1.02442e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep2: 0 minutes and 54.895 seconds.
+
+Elapsed time for subintervals in sweep2: 2 minutes and 30.597 seconds.
+
+
+Shooting of sweep3:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep3: 1 minutes and 8.834 seconds.
+
+pressureDrop is     1.11631e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep3: 0 minutes and 48.658 seconds.
+
+Elapsed time for subintervals in sweep3: 2 minutes and 11.502 seconds.
+
+
+Shooting of sweep4:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep4: 0 minutes and 56.993 seconds.
+
+pressureDrop is     1.10104e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep4: 0 minutes and 41.878 seconds.
+
+Elapsed time for subintervals in sweep4: 1 minutes and 53.712 seconds.
+
+
+Shooting of sweep5:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep5: 0 minutes and 48.916 seconds.
+
+pressureDrop is     1.09977e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep5: 0 minutes and 41.495 seconds.
+
+Elapsed time for subintervals in sweep5: 1 minutes and 44.924 seconds.
+
+
+Shooting of sweep6:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep6: 0 minutes and 44.441 seconds.
+
+pressureDrop is     1.09281e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep6: 0 minutes and 35.455 seconds.
+
+Elapsed time for subintervals in sweep6: 1 minutes and 33.573 seconds.
+
+
+Shooting of sweep7:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep7: 0 minutes and 36.17 seconds.
+
+pressureDrop is     1.09295e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep7: 0 minutes and 0.0 seconds.
+
+Elapsed time for subintervals in sweep7: 0 minutes and 46.524 seconds.
+
+Elapsed time for 7_intervals_20-07_primal-adjoint in sweep7: 13 minutes and 34.547 seconds.

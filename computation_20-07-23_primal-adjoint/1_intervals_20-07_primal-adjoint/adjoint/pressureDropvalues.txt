@@ -1,0 +1,23 @@
+
+
+=============================================================================
+
+                         LOGFILE 1_intervals_adjoint_11-07
+
+=============================================================================
+
+
+Elapsed time for adjointPimpleDyMFoam in sweep1: 8 minutes and 25.987 seconds.
+adjointPressureDrop is     0.00116141
+
+Elapsed time for adjointLinearisedPimpleDyMFoam in sweep1: 0 minutes and 1.077 seconds.
+
+Elapsed time for sweep1 in adjoint folder: 0 minutes and 0.002 seconds.
+
+Elapsed time for adjoint_subintervals in sweep1: 9 minutes and 15.128 seconds.
+
+
+Adjoint shooting of sweep1:
+---------------------------------
+
+Elapsed time for adjoint computation in 1_intervals_adjoint_11-07: 10 minutes and 11.877 seconds.

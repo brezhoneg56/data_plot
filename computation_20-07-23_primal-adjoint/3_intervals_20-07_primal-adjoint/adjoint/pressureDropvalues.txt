@@ -1,0 +1,49 @@
+
+
+=============================================================================
+
+                         LOGFILE 3_intervals_20-07_primal-adjoint
+
+=============================================================================
+
+
+Elapsed time for adjointPimpleDyMFoam in sweep1: 2 minutes and 12.815 seconds.
+adjointPressureDrop is     0.00198473
+
+Elapsed time for adjointLinearisedPimpleDyMFoam in sweep1: 1 minutes and 21.723 seconds.
+
+Elapsed time for sweep1 in adjoint folder: 0 minutes and 4.233 seconds.
+
+Elapsed time for adjoint_subintervals in sweep1: 3 minutes and 50.251 seconds.
+
+
+Adjoint shooting of sweep1:
+---------------------------------
+
+Elapsed time for adjointPimpleDyMFoam in sweep2: 2 minutes and 6.072 seconds.
+adjointPressureDrop is     -0.000123316
+
+Elapsed time for adjointLinearisedPimpleDyMFoam in sweep2: 1 minutes and 29.395 seconds.
+
+Elapsed time for sweep2 in adjoint folder: 0 minutes and 2.235 seconds.
+
+Elapsed time for adjoint_subintervals in sweep2: 3 minutes and 49.454 seconds.
+
+
+Adjoint shooting of sweep2:
+---------------------------------
+
+Elapsed time for adjointPimpleDyMFoam in sweep3: 1 minutes and 55.272 seconds.
+adjointPressureDrop is     0.00116141
+
+Elapsed time for adjointLinearisedPimpleDyMFoam in sweep3: 1 minutes and 29.238 seconds.
+
+Elapsed time for sweep3 in adjoint folder: 0 minutes and 0.001 seconds.
+
+Elapsed time for adjoint_subintervals in sweep3: 3 minutes and 36.384 seconds.
+
+
+Adjoint shooting of sweep3:
+---------------------------------
+
+Elapsed time for adjoint computation in 3_intervals_20-07_primal-adjoint: 11 minutes and 18.206 seconds.

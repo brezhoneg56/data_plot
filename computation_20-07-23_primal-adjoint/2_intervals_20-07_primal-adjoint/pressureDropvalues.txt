@@ -1,0 +1,34 @@
+
+
+=============================================================================
+
+                         LOGFILE 2_intervals_20-07_primal-adjoint
+
+=============================================================================
+
+
+
+Shooting of sweep1:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep1: 2 minutes and 21.532 seconds.
+
+pressureDrop is     9.80069e-08
+
+Elapsed time for linearisedPimpleDyMFoam in sweep1: 2 minutes and 2.067 seconds.
+
+Elapsed time for subintervals in sweep1: 4 minutes and 36.975 seconds.
+
+
+Shooting of sweep2:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep2: 2 minutes and 6.727 seconds.
+
+pressureDrop is     1.09279e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep2: 0 minutes and 0.001 seconds.
+
+Elapsed time for subintervals in sweep2: 2 minutes and 17.03 seconds.
+
+Elapsed time for 2_intervals_20-07_primal-adjoint in sweep2: 6 minutes and 54.083 seconds.

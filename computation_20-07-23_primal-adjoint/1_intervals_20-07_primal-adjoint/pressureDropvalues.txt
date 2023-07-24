@@ -1,0 +1,22 @@
+
+
+=============================================================================
+
+                         LOGFILE 1_intervals_adjoint_11-07
+
+=============================================================================
+
+
+
+Shooting of sweep1:
+---------------------------------
+
+Elapsed time for pimpleDyMFoam in sweep1: 15 minutes and 57.62 seconds.
+
+pressureDrop is     1.0928e-07
+
+Elapsed time for linearisedPimpleDyMFoam in sweep1: 0 minutes and 0.001 seconds.
+
+Elapsed time for subintervals in sweep1: 16 minutes and 52.714 seconds.
+
+Elapsed time for 1_intervals_adjoint_11-07 in sweep1: 16 minutes and 53.522 seconds.
