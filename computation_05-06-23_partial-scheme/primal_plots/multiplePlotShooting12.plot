@@ -40,7 +40,7 @@ plot '../1_intervals_05-06-23/logtable1.csv' using 1:2 with linespoints title '1
 '../100_intervals_05-06-23/logtable100.csv' using 1:2 with linespoints title '100 intervals' 
 
 
-set output 'plot_1_2_Comparison_intervals.eps'
+set output 'plot_1_2_Comparison_intervals.pdf'
 replot
 
 set terminal pngcairo dashed lw 1 enhanced
