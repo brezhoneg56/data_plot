@@ -1,5 +1,5 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: zero_init_1_4_primal.eps
+%%Title: zero_init_1_4_primal.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
 %%CreationDate: Thu Jul 27 11:40:48 2023
 %%DocumentFonts: (atend)
@@ -476,7 +476,7 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (zero_init_1_4_primal.eps)
+  /Title (zero_init_1_4_primal.pdf)
   /Subject (gnuplot plot)
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
