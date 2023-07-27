@@ -4,7 +4,7 @@ set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subinterval
 
 set xlabel 'Sweep [-]'
 set ylabel 'PressureDrop [N/m^2]'
-set yrange [0.9e-07:2.5e-07]
+set yrange [0.7e-07:2.5e-07]
 #set xrange [0:531.622]
 
 ## Labels
@@ -24,6 +24,7 @@ set key bottom right
 #set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
 
 #set pointintervalbox 1.4
+set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output 'zero_init_1_2_primal.eps'
