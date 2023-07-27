@@ -304,59 +304,66 @@
 	</g>
 	<g id="gnuplot_plot_2" ><title>2 intervals</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(707.09,384.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Verdana" >2 intervals</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0, 158, 115)'  d='M715.48,380.40 L758.04,380.40 M192.70,54.01 L195.31,483.55  '/>	<use xlink:href='#gpPt1' transform='translate(195.31,483.55) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(736.76,380.40) scale(4.50)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_3" ><title>3 intervals</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(707.09,384.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+	<g transform="translate(707.09,402.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Verdana" >3 intervals</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M715.48,380.40 L758.04,380.40 M193.31,54.01 L195.31,502.04 L267.75,483.55  '/>	<use xlink:href='#gpPt2' transform='translate(195.31,502.04) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<path stroke='rgb( 86, 180, 233)'  d='M715.48,398.40 L758.04,398.40 M193.31,54.01 L195.31,502.04 L267.75,483.55  '/>	<use xlink:href='#gpPt2' transform='translate(195.31,502.04) scale(4.50)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(267.75,483.55) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(736.76,380.40) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(736.76,398.40) scale(4.50)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_4" ><title>5 intervals</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(707.09,402.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+	<g transform="translate(707.09,420.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Verdana" >5 intervals</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(230, 159,   0)'  d='M715.48,398.40 L758.04,398.40 M194.32,54.01 L195.31,439.73 L267.75,505.09 L340.19,494.76 L412.63,483.66  '/>	<use xlink:href='#gpPt3' transform='translate(195.31,439.73) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<path stroke='rgb(230, 159,   0)'  d='M715.48,416.40 L758.04,416.40 M194.32,54.01 L195.31,439.73 L267.75,505.09 L340.19,494.76 L412.63,483.66  '/>	<use xlink:href='#gpPt3' transform='translate(195.31,439.73) scale(4.50)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(267.75,505.09) scale(4.50)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(340.19,494.76) scale(4.50)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(412.63,483.66) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(736.76,398.40) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(736.76,416.40) scale(4.50)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_5" ><title>7 intervals</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(707.09,420.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+	<g transform="translate(707.09,438.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Verdana" >7 intervals</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M715.48,416.40 L758.04,416.40 M194.80,54.01 L195.31,336.12 L267.75,470.32 L340.19,512.85 L412.63,500.06 L485.06,490.45
+	<path stroke='rgb(240, 228,  66)'  d='M715.48,434.40 L758.04,434.40 M194.80,54.01 L195.31,336.12 L267.75,470.32 L340.19,512.85 L412.63,500.06 L485.06,490.45
 		L557.50,483.50  '/>	<use xlink:href='#gpPt4' transform='translate(195.31,336.12) scale(4.50)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(267.75,470.32) scale(4.50)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(340.19,512.85) scale(4.50)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(412.63,500.06) scale(4.50)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(485.06,490.45) scale(4.50)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(557.50,483.50) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(736.76,416.40) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(736.76,434.40) scale(4.50)' color='rgb(240, 228,  66)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_6" ><title>10 intervals</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(707.09,438.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
+	<g transform="translate(707.09,456.30)" stroke="none" fill="black" font-family="Verdana" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Verdana" >10 intervals</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 114, 178)'  d='M715.48,434.40 L758.04,434.40 M195.23,54.01 L195.31,115.09 L267.75,381.76 L340.19,496.11 L412.63,513.53 L485.06,508.20
+	<path stroke='rgb(  0, 114, 178)'  d='M715.48,452.40 L758.04,452.40 M195.23,54.01 L195.31,115.09 L267.75,381.76 L340.19,496.11 L412.63,513.53 L485.06,508.20
 		L557.50,501.31 L629.94,494.05 L702.38,486.58 L774.82,483.66  '/>	<use xlink:href='#gpPt5' transform='translate(195.31,115.09) scale(4.50)' color='rgb(  0, 114, 178)'/>
 	<use xlink:href='#gpPt5' transform='translate(267.75,381.76) scale(4.50)' color='rgb(  0, 114, 178)'/>
 	<use xlink:href='#gpPt5' transform='translate(340.19,496.11) scale(4.50)' color='rgb(  0, 114, 178)'/>
@@ -366,7 +373,7 @@
 	<use xlink:href='#gpPt5' transform='translate(629.94,494.05) scale(4.50)' color='rgb(  0, 114, 178)'/>
 	<use xlink:href='#gpPt5' transform='translate(702.38,486.58) scale(4.50)' color='rgb(  0, 114, 178)'/>
 	<use xlink:href='#gpPt5' transform='translate(774.82,483.66) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(736.76,434.40) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(736.76,452.40) scale(4.50)' color='rgb(  0, 114, 178)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_7" ><title>14 intervals</title>
