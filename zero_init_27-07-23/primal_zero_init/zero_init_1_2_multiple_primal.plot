@@ -3,13 +3,13 @@ set grid
 set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
 
 set xlabel 'Sweep [-]'
-set ylabel 'PressureDrop [N/m^2]'
+set ylabel 'PressureDrop [Nm]'
 set yrange [0.9e-07:3.2e-07]
 #set xrange [0:531.622]
 
 ## Labels
 # 1 : Sweep [-]
-# 2 : PressureDrop [N/m²]
+# 2 : PressureDrop [Nm]
 # 3 : Velocity Defect [kg m/s]
 # 4 : Continuity Defect [kg m/s]
 # 5 : WallTime for PimpelDyMFoam [s]

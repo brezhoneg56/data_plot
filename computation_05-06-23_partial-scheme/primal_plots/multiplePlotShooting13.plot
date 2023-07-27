@@ -17,14 +17,6 @@ set yrange [0.0:20]
 
 set key bottom right
 
-#set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
-#set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9
-#set style line 7 lc rgb 'black' lt 2 lw 1 pt 5 pi -1 ps 0.75
-
-#set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
-
-#set pointintervalbox 1.4
-
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output 'plot_1_3_Comparison_intervals.pdf'
 
@@ -43,12 +35,7 @@ plot '../2_intervals_05-06-23/logtable2.csv' using 1:3 with linespoints title '2
 set output 'plot_1_3_Comparison_intervals.eps'
 replot
 
-set terminal pngcairo dashed lw 1 enhanced
-set output 'plot_1_3_Comparison_intervals.png'
-replot
-
 # Set up SVG terminal
 set terminal svg size 800,600 fname 'Verdana' enhanced
 set output 'plot_1_3_Comparison_intervals.svg'
-
 replot

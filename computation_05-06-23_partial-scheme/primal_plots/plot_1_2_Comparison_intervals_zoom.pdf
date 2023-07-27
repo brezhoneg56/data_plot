@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: plot_1_2_Comparison_intervals_zoom.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
-%%CreationDate: Tue Jul 25 09:12:28 2023
+%%CreationDate: Thu Jul 27 17:50:13 2023
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Tue Jul 25 09:12:28 2023)
+  /CreationDate (Thu Jul 27 17:50:13 2023)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -778,7 +778,7 @@ LCb setrgbcolor
 LCb setrgbcolor
 171 2537 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 180.0 0.0 true true 0 (Pressure Drop [Nm e-07])]
+[ [(Helvetica) 180.0 0.0 true true 0 (Pressure Drop [Nm])]
 ] -60.0 MCshow
 grestore
 /Helvetica findfont 180 scalefont setfont
