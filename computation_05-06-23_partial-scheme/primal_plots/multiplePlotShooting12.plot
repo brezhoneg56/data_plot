@@ -23,7 +23,7 @@ set key bottom right
 
 #set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
 
-#set pointintervalbox 1.4
+set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output 'plot_1_2_Comparison_intervals.eps'
