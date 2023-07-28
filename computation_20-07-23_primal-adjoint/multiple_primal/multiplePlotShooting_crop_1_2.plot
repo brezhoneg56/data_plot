@@ -27,7 +27,7 @@ set key bottom right
 #set pointintervalbox 1.4
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
-set output 'plot_1_2_Comparison_intervals.eps'
+set output 'plot_1_2_crop_intervals.eps'
 
 plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoints title '2 intervals' , \
 '../2_intervals_20-07_primal-adjoint/logtable2.csv' using 1:2 with linespoints title '2 intervals' , \
@@ -37,17 +37,17 @@ plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoi
 '../10_intervals_20-07_primal-adjoint/logtable10.csv' using 1:2 with linespoints title '10 intervals' , \
 '../14_intervals_20-07_primal-adjoint/logtable14.csv' using 1:2 with linespoints title '14 intervals' , \
 '../28_intervals_20-07_primal-adjoint/logtable28.csv' using 1:2 with linespoints title '28 intervals' , \
-'../56_intervals_20-07_primal-adjoint/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
+#'../56_intervals_20-07_primal-adjoint/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
 #'100_intervals_20-07_primal-adjoint/logtable100.csv' using 1:2 with linespoints title '100 intervals' 
 
 
-set output 'plot_1_2_Comparison_intervals.pdf'
+set output 'plot_1_2_crop_intervals.pdf'
 replot
 
 
 # Set up SVG terminal
 set terminal svg size 800,600 fname 'Verdana' enhanced
-set output 'plot_1_2_Comparison_intervals.svg'
+set output 'plot_1_2_crop_intervals.svg'
 
 replot
 
