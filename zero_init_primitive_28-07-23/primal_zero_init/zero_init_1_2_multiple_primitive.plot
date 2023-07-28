@@ -15,7 +15,7 @@ set yrange [0.9e-07:3.2e-07]
 # 5 : WallTime for PimpelDyMFoam [s]
 # 6 : Total Accumulated WallTime [s]
 
-set key bottom right
+set key top right
 
 #set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
 #set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9
@@ -37,8 +37,8 @@ plot '../1_intervals_26-07-23_zero-init/logtable1.csv' using 1:2 with linespoint
 '../10_intervals_26-07-23_zero-init/logtable10.csv' using 1:2 with linespoints title '10 intervals' , \
 '../14_intervals_26-07-23_zero-init/logtable14.csv' using 1:2 with linespoints title '14 intervals' , \
 '../28_intervals_26-07-23_zero-init/logtable28.csv' using 1:2 with linespoints title '28 intervals' , \
-'../56_intervals_26-07-23_zero-init/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
-'../100_intervals_26-07-23_zero-init/logtable100.csv' using 1:2 with linespoints title '100 intervals',\
+#'../56_intervals_26-07-23_zero-init/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
+#'../100_intervals_26-07-23_zero-init/logtable100.csv' using 1:2 with linespoints title '100 intervals',\
 
 
 set output 'zero_init_1_2_primal.pdf'
