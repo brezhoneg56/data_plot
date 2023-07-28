@@ -1,5 +1,5 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: plot_1_2_Comparison_intervals.eps
+%%Title: plot_1_2_Comparison_intervals.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
 %%CreationDate: Fri Jul 28 09:22:36 2023
 %%DocumentFonts: (atend)
@@ -476,7 +476,7 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (plot_1_2_Comparison_intervals.eps)
+  /Title (plot_1_2_Comparison_intervals.pdf)
   /Subject (gnuplot plot)
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)

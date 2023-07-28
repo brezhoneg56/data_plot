@@ -41,12 +41,10 @@ plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoi
 #'100_intervals_20-07_primal-adjoint/logtable100.csv' using 1:2 with linespoints title '100 intervals' 
 
 
-set output 'plot_1_2_Comparison_intervals.eps'
+set output 'plot_1_2_Comparison_intervals.pdf'
 replot
 
-set terminal pngcairo dashed lw 1 enhanced
-set output 'plot_1_2_Comparison_intervals.png'
-replot
+gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o plot_12_primal.png plot_1_2_Comparison_intervals.eps
 
 # Set up SVG terminal
 set terminal svg size 800,600 fname 'Verdana' enhanced
