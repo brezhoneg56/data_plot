@@ -4,7 +4,8 @@ set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subinterval
 
 set xlabel 'Sweep [-]'
 set ylabel 'Pressure Drop [N/m^2]'
-set yrange [2e-08:1.3e-07]
+#set yrange [2e-08:1.3e-07]
+set yrange [0.9e-07:1.2e-07]  #comparison with zero init
 #set xrange [0:14]
 
 ## Labels
