@@ -4,7 +4,7 @@ set title 'Plot Comparison over [2, 3, 5, 7, 10] subintervals'
 
 set xlabel 'Sweep [-]'
 set ylabel 'Pressure Drop [Nm]'
-set yrange [0.5:1.5]
+#set yrange [0.5:1.5]
 set xrange [0:10]
 
 ## Labels
@@ -15,7 +15,7 @@ set xrange [0:10]
 # 5 : WallTime for PimpelDyMFoam [s]
 # 6 : Total Accumulated WallTime [s]
 
-set key top right
+set key bottom right
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output 'plot_1_2_Comparison_intervals_zoom.pdf'
