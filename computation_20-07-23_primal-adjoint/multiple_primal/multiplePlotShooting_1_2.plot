@@ -44,7 +44,6 @@ plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoi
 set output 'plot_1_2_Comparison_intervals.pdf'
 replot
 
-gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o plot_12_primal.png plot_1_2_Comparison_intervals.eps
 
 # Set up SVG terminal
 set terminal svg size 800,600 fname 'Verdana' enhanced

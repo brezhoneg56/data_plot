@@ -15,7 +15,7 @@ set yrange [0.9e-07:3.2e-07]
 # 5 : WallTime for PimpelDyMFoam [s]
 # 6 : Total Accumulated WallTime [s]
 
-set key bottom right
+set key top right
 
 #set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
 #set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9
@@ -27,7 +27,7 @@ set key bottom right
 set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
-set output 'zero_init_1_2_primal.eps'
+set output 'zero_init_1_2_primal2.eps'
 
 plot '../1_intervals_26-07-23_zero-init/logtable1.csv' using 1:2 with linespoints title '1 intervals' , \
 '../2_intervals_26-07-23_zero-init/logtable2.csv' using 1:2 with linespoints title '2 intervals' , \
@@ -45,11 +45,11 @@ set output 'zero_init_1_2_primal.pdf'
 replot
 
 set terminal pngcairo dashed lw 1 enhanced
-set output 'zero_init_1_2_primal.png'
+set output 'zero_init_1_2_primal2.png'
 replot
 
 # Set up SVG terminal
 set terminal svg size 800,600 fname 'Verdana' enhanced
-set output 'zero_init_1_2_primal.svg'
+set output 'zero_init_1_2_primal2.svg'
 
 replot

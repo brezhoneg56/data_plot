@@ -1,6 +1,6 @@
 set grid
 
-set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
+#set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
 
 set xlabel 'Sweep [-]'
 set ylabel 'Pressure Drop [N/m^2]'
@@ -24,7 +24,7 @@ set key bottom right
 
 #set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
 
-#set pointintervalbox 1.4
+set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output 'plot_adjoint_1_2_Comparison_intervals.eps'
@@ -37,7 +37,7 @@ plot '../1_intervals_20-07_primal-adjoint/adjoint/adjointlogtable1.csv' using 1:
 '../10_intervals_20-07_primal-adjoint/adjoint/adjointlogtable10.csv' using 1:2 with linespoints title '10 intervals' , \
 '../14_intervals_20-07_primal-adjoint/adjoint/adjointlogtable14.csv' using 1:2 with linespoints title '14 intervals' , \
 '../28_intervals_20-07_primal-adjoint/adjoint/adjointlogtable28.csv' using 1:2 with linespoints title '28 intervals' , \
-'../56_intervals_20-07_primal-adjoint/adjoint/adjointlogtable56.csv' using 1:2 with linespoints title '56 intervals' , \
+#'../56_intervals_20-07_primal-adjoint/adjoint/adjointlogtable56.csv' using 1:2 with linespoints title '56 intervals' , \
 #'100_intervals_20-07_primal-adjoint/adjoint/adjointlogtable100.csv' using 1:2 with linespoints title '100 intervals' 
 
 

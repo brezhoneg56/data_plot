@@ -15,10 +15,10 @@ set yrange [0.0:20]
 # 5 : WallTime for PimpelDyMFoam
 # 6 : Total Accumulated WallTime
 
-set key bottom right
+set key top right
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
-set output 'plot_1_3_Comparison_intervals.pdf'
+set output 'plot_1_3_Comparison_intervals28.pdf'
 
 
 plot '../2_intervals_05-06-23/logtable2.csv' using 1:3 with linespoints title '2 intervals' , \
@@ -28,14 +28,14 @@ plot '../2_intervals_05-06-23/logtable2.csv' using 1:3 with linespoints title '2
 '../10_intervals_05-06-23/logtable10.csv' using 1:3 with linespoints title '10 intervals' , \
 '../14_intervals_05-06-23/logtable14.csv' using 1:3 with linespoints title '14 intervals' , \
 '../28_intervals_05-06-23/logtable28.csv' using 1:3 with linespoints title '28 intervals' , \
-'../56_intervals_05-06-23/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
-'../100_intervals_05-06-23/logtable100.csv' using 1:3 with linespoints title '100 intervals' 
+#'../56_intervals_05-06-23/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
+#'../100_intervals_05-06-23/logtable100.csv' using 1:3 with linespoints title '100 intervals'
 
 
-set output 'plot_1_3_Comparison_intervals.eps'
+set output 'plot_1_3_Comparison_intervals28.eps'
 replot
 
 # Set up SVG terminal
-set terminal svg size 800,600 fname 'Verdana' enhanced
-set output 'plot_1_3_Comparison_intervals.svg'
-replot
+#set terminal svg size 800,600 fname 'Verdana' enhanced
+#set output 'plot_1_3_Comparison_intervals.svg'
+#replot
