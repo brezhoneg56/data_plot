@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: plot_1_2_Comparison_intervals.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
-%%CreationDate: Fri Jul 28 10:34:26 2023
+%%CreationDate: Mon Jul 31 12:35:27 2023
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Fri Jul 28 10:34:26 2023)
+  /CreationDate (Mon Jul 31 12:35:27 2023)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -551,7 +551,7 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 1099 M
+1422 1147 M
 3338 0 V
 2007 0 R
 108 0 V
@@ -559,12 +559,12 @@ stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 1099 M
+1422 1147 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 1099 M
+1314 1147 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 2x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-8)]
 ] -78.0 MRshow
@@ -575,7 +575,7 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 1622 M
+1422 1718 M
 3338 0 V
 2007 0 R
 108 0 V
@@ -583,12 +583,12 @@ stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 1622 M
+1422 1718 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 1622 M
+1314 1718 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 4x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-8)]
 ] -78.0 MRshow
@@ -599,20 +599,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 2145 M
-3338 0 V
-2007 0 R
-108 0 V
+1422 2289 M
+5453 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 2145 M
+1422 2289 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 2145 M
+1314 2289 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 6x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-8)]
 ] -78.0 MRshow
@@ -623,18 +621,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 2668 M
+1422 2860 M
 5453 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 2668 M
+1422 2860 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 2668 M
+1314 2860 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 8x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-8)]
 ] -78.0 MRshow
@@ -645,18 +643,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 3191 M
+1422 3431 M
 5453 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 3191 M
+1422 3431 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 3191 M
+1314 3431 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 1x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-7)]
 ] -78.0 MRshow
@@ -667,18 +665,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 3714 M
+1422 4002 M
 5453 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 3714 M
+1422 4002 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 3714 M
+1314 4002 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 1.2x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-7)]
 ] -78.0 MRshow
@@ -689,18 +687,18 @@ LCb setrgbcolor
 0.500 UL
 LTa
 LCa setrgbcolor
-1422 4237 M
+1422 4573 M
 5453 0 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
-1422 4237 M
+1422 4573 M
 63 0 V
 5390 0 R
 -63 0 V
 stroke
-1314 4237 M
+1314 4573 M
 [ [(Helvetica) 180.0 0.0 true true 0 ( 1.4x10)]
 [(Helvetica) 144.0 90.0 true true 0 (-7)]
 ] -78.0 MRshow
@@ -712,14 +710,14 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 1422 576 M
-0 3923 V
+0 4283 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 1422 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 1422 396 M
@@ -733,14 +731,14 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 2331 576 M
-0 3923 V
+0 4283 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 2331 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 2331 396 M
@@ -754,14 +752,14 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 3240 576 M
-0 3923 V
+0 4283 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 3240 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 3240 396 M
@@ -775,14 +773,14 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 4149 576 M
-0 3923 V
+0 4283 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 4149 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 4149 396 M
@@ -798,14 +796,14 @@ LCa setrgbcolor
 5057 576 M
 0 63 V
 0 1620 R
-0 2240 V
+0 2600 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 5057 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 5057 396 M
@@ -821,14 +819,14 @@ LCa setrgbcolor
 5966 576 M
 0 63 V
 0 1620 R
-0 2240 V
+0 2600 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 5966 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 5966 396 M
@@ -842,14 +840,14 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 6875 576 M
-0 3923 V
+0 4283 V
 stroke
 1.000 UL
 LTb
 LCb setrgbcolor
 6875 576 M
 0 63 V
-0 3860 R
+0 4220 R
 0 -63 V
 stroke
 6875 396 M
@@ -862,10 +860,10 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-1422 4499 N
-0 -3923 V
+1422 4859 N
+0 -4283 V
 5453 0 V
-0 3923 V
+0 4283 V
 -5453 0 V
 Z stroke
 1.000 UP
@@ -873,12 +871,10 @@ Z stroke
 LTb
 LCb setrgbcolor
 LCb setrgbcolor
-171 2537 M
+171 2717 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 180.0 0.0 true true 0 (Pressure Drop [N/m)]
-[(Helvetica) 144.0 90.0 true true 0 (2)]
-[(Helvetica) 180.0 0.0 true true 0 (])]
-] -78.0 MCshow
+[ [(Helvetica) 180.0 0.0 true true 0 (Pressure Drop [Nm])]
+] -60.0 MCshow
 grestore
 /Helvetica findfont 180 scalefont setfont
 LTb
@@ -895,7 +891,7 @@ LTb
 LCb setrgbcolor
 LCb setrgbcolor
 6056 2169 M
-[ [(Helvetica) 180.0 0.0 true true 0 (2 intervals)]
+[ [(Helvetica) 180.0 0.0 true true 0 (1 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
 1.000 UP
@@ -904,8 +900,8 @@ LTb
 LCb setrgbcolor
 6164 2169 M
 495 0 V
-1513 3434 M
-1513 3434 Pls
+1513 3696 M
+1513 3696 Pls
 6411 2169 Pls
 % End plot #1
 % Begin plot #2
@@ -926,10 +922,10 @@ LT1
 LCb setrgbcolor
 6164 1989 M
 495 0 V
-1513 3139 M
-91 295 V
-1513 3139 Pls
-1604 3434 Pls
+1513 3374 M
+91 322 V
+1513 3374 Pls
+1604 3696 Pls
 6411 1989 Pls
 % End plot #2
 % Begin plot #3
@@ -950,12 +946,12 @@ LT2
 LCb setrgbcolor
 6164 1809 M
 495 0 V
-1513 2821 M
-91 621 V
-91 -8 V
-1513 2821 Pls
-1604 3442 Pls
-1695 3434 Pls
+1513 3027 M
+91 678 V
+91 -9 V
+1513 3027 Pls
+1604 3705 Pls
+1695 3696 Pls
 6411 1809 Pls
 % End plot #3
 % Begin plot #4
@@ -976,16 +972,16 @@ LT3
 LCb setrgbcolor
 6164 1629 M
 495 0 V
-1513 2263 M
-91 1153 V
-91 34 V
-91 -12 V
-90 -5 V
-1513 2263 Pls
-1604 3416 Pls
-1695 3450 Pls
-1786 3438 Pls
-1876 3433 Pls
+1513 2418 M
+91 1259 V
+91 37 V
+91 -13 V
+90 -6 V
+1513 2418 Pls
+1604 3677 Pls
+1695 3714 Pls
+1786 3701 Pls
+1876 3695 Pls
 6411 1629 Pls
 % End plot #4
 % Begin plot #5
@@ -1004,20 +1000,20 @@ LTb
 LCb setrgbcolor
 6164 1449 M
 495 0 V
-1513 1894 M
-91 1361 V
-91 241 V
-91 -40 V
+1513 2015 M
+91 1486 V
+91 262 V
+91 -43 V
 90 -4 V
-91 -18 V
-91 0 V
-1513 1894 Pls
-1604 3255 Pls
-1695 3496 Pls
-1786 3456 Pls
-1876 3452 Pls
-1967 3434 Pls
-2058 3434 Pls
+91 -20 V
+91 1 V
+1513 2015 Pls
+1604 3501 Pls
+1695 3763 Pls
+1786 3720 Pls
+1876 3716 Pls
+1967 3696 Pls
+2058 3697 Pls
 6411 1449 Pls
 % End plot #5
 % Begin plot #6
@@ -1038,26 +1034,26 @@ LTb
 LCb setrgbcolor
 6164 1269 M
 495 0 V
-1513 1452 M
-91 1581 V
-91 409 V
-91 62 V
+1513 1532 M
+91 1726 V
+91 447 V
+91 68 V
 90 6 V
-91 -80 V
-91 10 V
+91 -87 V
+91 11 V
 91 -1 V
-91 -4 V
+91 -5 V
 91 -2 V
-1513 1452 Pls
-1604 3033 Pls
-1695 3442 Pls
-1786 3504 Pls
-1876 3510 Pls
-1967 3430 Pls
-2058 3440 Pls
-2149 3439 Pls
-2240 3435 Pls
-2331 3433 Pls
+1513 1532 Pls
+1604 3258 Pls
+1695 3705 Pls
+1786 3773 Pls
+1876 3779 Pls
+1967 3692 Pls
+2058 3703 Pls
+2149 3702 Pls
+2240 3697 Pls
+2331 3695 Pls
 6411 1269 Pls
 % End plot #6
 % Begin plot #7
@@ -1078,34 +1074,34 @@ LT6
 LCb setrgbcolor
 6164 1089 M
 495 0 V
-1513 962 M
-91 1915 V
-91 300 V
-91 321 V
-90 38 V
-91 -45 V
+1513 997 M
+91 2091 V
+91 328 V
+91 350 V
+90 42 V
+91 -50 V
 91 -5 V
-91 -27 V
-91 14 V
-91 -41 V
+91 -29 V
+91 15 V
+91 -45 V
 91 -4 V
 91 3 V
-90 3 V
-91 0 V
-1513 962 CircleF
-1604 2877 CircleF
-1695 3177 CircleF
-1786 3498 CircleF
-1876 3536 CircleF
-1967 3491 CircleF
-2058 3486 CircleF
-2149 3459 CircleF
-2240 3473 CircleF
-2331 3432 CircleF
-2422 3428 CircleF
-2513 3431 CircleF
-2603 3434 CircleF
-2694 3434 CircleF
+90 4 V
+91 -1 V
+1513 997 CircleF
+1604 3088 CircleF
+1695 3416 CircleF
+1786 3766 CircleF
+1876 3808 CircleF
+1967 3758 CircleF
+2058 3753 CircleF
+2149 3724 CircleF
+2240 3739 CircleF
+2331 3694 CircleF
+2422 3690 CircleF
+2513 3693 CircleF
+2603 3697 CircleF
+2694 3696 CircleF
 6411 1089 CircleF
 % End plot #7
 % Begin plot #8
@@ -1127,60 +1123,60 @@ LCb setrgbcolor
 6164 909 M
 495 0 V
 1546 576 M
-58 2120 V
-91 -59 V
-91 358 V
-90 194 V
-91 220 V
-91 32 V
-91 126 V
-91 -22 V
-91 76 V
-91 -67 V
-91 -27 V
-90 11 V
-91 -53 V
-91 -30 V
-91 20 V
-91 19 V
-91 13 V
-91 2 V
-91 -14 V
-91 -18 V
-90 -28 V
-91 -22 V
-91 -14 V
-91 -10 V
+58 2315 V
+91 -65 V
+91 391 V
+90 212 V
+91 240 V
+91 35 V
+91 137 V
+91 -24 V
+91 83 V
+91 -73 V
+91 -29 V
+90 12 V
+91 -58 V
+91 -33 V
+91 22 V
+91 21 V
+91 14 V
+91 3 V
+91 -16 V
+91 -20 V
+90 -30 V
+91 -25 V
+91 -15 V
+91 -11 V
 91 -3 V
-91 17 V
-91 18 V
-1604 2696 TriU
-1695 2637 TriU
-1786 2995 TriU
-1876 3189 TriU
-1967 3409 TriU
-2058 3441 TriU
-2149 3567 TriU
-2240 3545 TriU
-2331 3621 TriU
-2422 3554 TriU
-2513 3527 TriU
-2603 3538 TriU
-2694 3485 TriU
-2785 3455 TriU
-2876 3475 TriU
-2967 3494 TriU
-3058 3507 TriU
-3149 3509 TriU
-3240 3495 TriU
-3331 3477 TriU
-3421 3449 TriU
-3512 3427 TriU
-3603 3413 TriU
-3694 3403 TriU
-3785 3400 TriU
-3876 3417 TriU
-3967 3435 TriU
+91 19 V
+91 19 V
+1604 2891 TriU
+1695 2826 TriU
+1786 3217 TriU
+1876 3429 TriU
+1967 3669 TriU
+2058 3704 TriU
+2149 3841 TriU
+2240 3817 TriU
+2331 3900 TriU
+2422 3827 TriU
+2513 3798 TriU
+2603 3810 TriU
+2694 3752 TriU
+2785 3719 TriU
+2876 3741 TriU
+2967 3762 TriU
+3058 3776 TriU
+3149 3779 TriU
+3240 3763 TriU
+3331 3743 TriU
+3421 3713 TriU
+3512 3688 TriU
+3603 3673 TriU
+3694 3662 TriU
+3785 3659 TriU
+3876 3678 TriU
+3967 3697 TriU
 6411 909 TriU
 % End plot #8
 % Begin plot #9
@@ -1202,116 +1198,116 @@ LCb setrgbcolor
 6164 729 M
 495 0 V
 1572 576 M
-32 2383 V
-91 -505 V
-91 120 V
-90 38 V
-91 60 V
-91 159 V
-91 54 V
-91 65 V
-91 292 V
-91 12 V
-91 243 V
-90 -193 V
-91 382 V
-91 -165 V
-91 204 V
-91 -94 V
-91 81 V
-91 -73 V
-91 3 V
-91 -42 V
-90 10 V
-91 34 V
-91 -81 V
-91 60 V
-91 -183 V
-91 192 V
-91 -273 V
-91 286 V
-91 -605 V
-90 -125 V
-91 -442 V
-91 96 V
-91 -314 V
-91 -295 V
+32 2601 V
+91 -551 V
+91 132 V
+90 40 V
+91 66 V
 91 174 V
-91 -321 V
-91 428 V
-90 -29 V
-91 297 V
-91 -14 V
-91 489 V
-91 -619 V
-91 403 V
-91 -176 V
-91 442 V
-91 -106 V
-90 253 V
-91 -46 V
-91 67 V
-91 6 V
-91 142 V
-91 -4 V
-91 45 V
+91 59 V
+91 71 V
+91 319 V
+91 13 V
+91 265 V
+90 -211 V
+91 418 V
+91 -181 V
+91 223 V
+91 -103 V
+91 88 V
+91 -79 V
+91 4 V
+91 -47 V
+90 11 V
+91 38 V
+91 -89 V
+91 65 V
+91 -199 V
+91 209 V
+91 -298 V
+91 312 V
+91 -660 V
+90 -137 V
+91 -481 V
+91 104 V
+91 -343 V
+91 -322 V
+91 190 V
+91 -350 V
+91 467 V
+90 -32 V
+91 324 V
+91 -15 V
+91 534 V
+91 -675 V
+91 439 V
+91 -192 V
+91 482 V
+91 -116 V
+90 277 V
+91 -50 V
+91 73 V
+91 7 V
+91 155 V
+91 -5 V
+91 50 V
 91 15 V
-90 31 V
-1604 2959 TriUF
-1695 2454 TriUF
-1786 2574 TriUF
-1876 2612 TriUF
-1967 2672 TriUF
-2058 2831 TriUF
-2149 2885 TriUF
-2240 2950 TriUF
-2331 3242 TriUF
-2422 3254 TriUF
-2513 3497 TriUF
-2603 3304 TriUF
-2694 3686 TriUF
-2785 3521 TriUF
-2876 3725 TriUF
-2967 3631 TriUF
-3058 3712 TriUF
-3149 3639 TriUF
-3240 3642 TriUF
-3331 3600 TriUF
-3421 3610 TriUF
-3512 3644 TriUF
-3603 3563 TriUF
-3694 3623 TriUF
-3785 3440 TriUF
-3876 3632 TriUF
-3967 3359 TriUF
-4058 3645 TriUF
-4149 3040 TriUF
-4239 2915 TriUF
-4330 2473 TriUF
-4421 2569 TriUF
-4512 2255 TriUF
-4603 1960 TriUF
-4694 2134 TriUF
-4785 1813 TriUF
-4876 2241 TriUF
-4966 2212 TriUF
-5057 2509 TriUF
-5148 2495 TriUF
-5239 2984 TriUF
-5330 2365 TriUF
-5421 2768 TriUF
-5512 2592 TriUF
-5603 3034 TriUF
-5694 2928 TriUF
-5784 3181 TriUF
-5875 3135 TriUF
-5966 3202 TriUF
-6057 3208 TriUF
-6148 3350 TriUF
-6239 3346 TriUF
-6330 3391 TriUF
-6421 3406 TriUF
-6511 3437 TriUF
+90 34 V
+1604 3177 TriUF
+1695 2626 TriUF
+1786 2758 TriUF
+1876 2798 TriUF
+1967 2864 TriUF
+2058 3038 TriUF
+2149 3097 TriUF
+2240 3168 TriUF
+2331 3487 TriUF
+2422 3500 TriUF
+2513 3765 TriUF
+2603 3554 TriUF
+2694 3972 TriUF
+2785 3791 TriUF
+2876 4014 TriUF
+2967 3911 TriUF
+3058 3999 TriUF
+3149 3920 TriUF
+3240 3924 TriUF
+3331 3877 TriUF
+3421 3888 TriUF
+3512 3926 TriUF
+3603 3837 TriUF
+3694 3902 TriUF
+3785 3703 TriUF
+3876 3912 TriUF
+3967 3614 TriUF
+4058 3926 TriUF
+4149 3266 TriUF
+4239 3129 TriUF
+4330 2648 TriUF
+4421 2752 TriUF
+4512 2409 TriUF
+4603 2087 TriUF
+4694 2277 TriUF
+4785 1927 TriUF
+4876 2394 TriUF
+4966 2362 TriUF
+5057 2686 TriUF
+5148 2671 TriUF
+5239 3205 TriUF
+5330 2530 TriUF
+5421 2969 TriUF
+5512 2777 TriUF
+5603 3259 TriUF
+5694 3143 TriUF
+5784 3420 TriUF
+5875 3370 TriUF
+5966 3443 TriUF
+6057 3450 TriUF
+6148 3605 TriUF
+6239 3600 TriUF
+6330 3650 TriUF
+6421 3665 TriUF
+6511 3699 TriUF
 6411 729 TriUF
 % End plot #9
 2.000 UL
@@ -1320,22 +1316,16 @@ LCb setrgbcolor
 1.000 UL
 LTB
 LCb setrgbcolor
-1422 4499 N
-0 -3923 V
+1422 4859 N
+0 -4283 V
 5453 0 V
-0 3923 V
+0 4283 V
 -5453 0 V
 Z stroke
 1.000 UP
 1.000 UL
 LTb
 LCb setrgbcolor
-LCb setrgbcolor
-4148 4769 M
-[ [(Helvetica) 180.0 0.0 true true 0 (Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals)]
-] -60.0 MCshow
-/Helvetica findfont 180 scalefont setfont
-LTb
 stroke
 grestore
 end

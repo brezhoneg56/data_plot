@@ -1,15 +1,15 @@
 set grid
 
-set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
+#set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
 
 set xlabel 'Sweep [-]'
-set ylabel 'Pressure Drop [N/m^2]'
+set ylabel 'Dissipated Energy due to Pressure Drop [Nm]'
 set yrange [0:1.5e-07]
 #set xrange [0:531.622]
 
 ## Labels
 # 1 : Sweep [-]
-# 2 : PressureDrop [N/m²]
+# 2 : PressureDrop [Nm]
 # 3 : Velocity Defect [kg m/s]
 # 4 : Continuity Defect [kg m/s]
 # 5 : WallTime for PimpelDyMFoam [s]
@@ -27,9 +27,9 @@ set key bottom right
 #set pointintervalbox 1.4
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
-set output 'plot_1_2_Comparison_intervals.eps'
+set output 'plot_1_2_intervals_primal_newton.eps'
 
-plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoints title '2 intervals' , \
+plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoints title '1 intervals' , \
 '../2_intervals_20-07_primal-adjoint/logtable2.csv' using 1:2 with linespoints title '2 intervals' , \
 '../3_intervals_20-07_primal-adjoint/logtable3.csv' using 1:2 with linespoints title '3 intervals' , \
 '../5_intervals_20-07_primal-adjoint/logtable5.csv' using 1:2 with linespoints title '5 intervals' , \
@@ -41,13 +41,6 @@ plot '../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:2 with linespoi
 #'100_intervals_20-07_primal-adjoint/logtable100.csv' using 1:2 with linespoints title '100 intervals' 
 
 
-set output 'plot_1_2_Comparison_intervals.pdf'
-replot
-
-
-# Set up SVG terminal
-set terminal svg size 800,600 fname 'Verdana' enhanced
-set output 'plot_1_2_Comparison_intervals.svg'
-
+set output 'plot_1_2_intervals_primal_newton.pdf'
 replot
 
