@@ -1,0 +1,83 @@
+\documentclass[twoside,a4paper,12pt,bibliography=totoc, parskip=half,english]{scrreprt}
+\usepackage[main=english]{babel}
+\pagestyle{headings}         											% Switch on headers
+\usepackage[utf8]{inputenc}  											% Character encoding
+\usepackage{ucs}
+%\usepackage{bm}             												% Bold in math mode
+\usepackage{textcomp}      												% upright \textmu, \textcentigrade, \textohm
+%\usepackage{siunitx}        												% optional: comprehensive package for formatting numerical values and units
+\usepackage[colorlinks=false,pdfpagelabels]{hyperref}						% Links in the pdf edition
+\usepackage{xcolor}   													% Colors
+\usepackage{color,colortbl}
+\usepackage{lscape}   													% optional: Single pages in landscape format
+\usepackage{caption}
+\DeclareCaptionType{mytype}[Graph][List of mytype]
+\DeclareCaptionType{mycode}[Code][List of mycode]
+\newenvironment{myenv}{}{}
+\usepackage{subcaption}
+\usepackage[percent]{overpic} 											% Add captions to images with LaTeX
+\usepackage{listings}         											% Program listings, comment out if unnecessary
+\usepackage{graphicx} 													% Embed images
+%\usepackage{tocbibind}
+
+%%
+%\usepackage[T1]{fontenc}
+\usepackage{pdfpages} 													% Insert whole pages from pdf files
+\usepackage{enumitem}
+\usepackage{epstopdf}
+%\usepackage{wrapfig}
+\usepackage{placeins} 													% Commandes supplémentaires pour flottants
+\usepackage{lipsum}
+%\usepackage[inner=3cm,outer=2cm,bottom=3cm]{geometry}
+\usepackage[inner=4cm,outer=2.5cm,bottom=3.5cm, top=4cm]{geometry}
+\usepackage{multirow}
+\newcolumntype{G}{>{\centering}p{0.2\textwidth}}
+\usepackage{multicol}
+\usepackage[most]{tcolorbox}
+\usepackage{booktabs} 													% To have nicer tables
+\usepackage[toc]{appendix}
+\setuptoc{toc}{totoc}
+
+\usepackage{dirtytalk}													% Pour citer avec des guillemets
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns}
+\usetikzlibrary{shapes.geometric,arrows}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage{natbib}						% Bib Tool 20.06.23
+\usepackage[l3]{csvsimple}												% read csv files
+\usepackage{array}
+\usepackage{cellspace}
+\setlength\cellspacetoplimit{4pt}
+\setlength\cellspacebottomlimit{4pt}
+\usepackage{longtable}													 % Add the longtable package
+\usepackage{tabularx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%\input{tikzlibrarytimeline.code}
+%\tikzstyle{io}=[rectangle,text centered,draw=black!0]
+%\tikzstyle{block}=[rectangle,minimum width=3.2cm,minimum height=1.5cm,text width=2.6cm,text centered,draw=black]
+%\tikzstyle{bigblock}=[rectangle,minimum width=3.2cm,minimum height=1.5cm,ultra thick,text width=2.6cm,text centered,draw=black]
+%\tikzstyle{arrow}=[thick,->,>=stealth]
+\usepackage{amsmath}
+\usepackage{mathtools}													%Equations entre accolades
+\usepackage{amsfonts}
+\usepackage{layouts}
+\setlength{\intextsep}{3pt plus 1pt minus 2pt} 							% DISTANCE FIGURE - TEXTE
+\usepackage{fancyhdr}													% Fancy headers
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[C]{\thepage}
+\chead{\leftmark}
+\DeclareGraphicsRule{.pdftex}{pdf}{*}{} 									% necessary for pdflatex to include in
+																		% pdftex_t-files from xfig to recognize included pdftex files as pdf
+\setlength{\parindent}{0em}   											% No indentation in first paragraph line
+
+\begin{document}
+
+\includegraphics[scale=1]{13_primal_zero-init_newton.eps}
+\includegraphics[scale=1]{12_primal_zero-init_newton.eps}
+\includegraphics[scale=1]{14_primal_zero-init_newton.eps}
+
+\end{document}
