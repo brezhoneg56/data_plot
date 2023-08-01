@@ -2,9 +2,9 @@ set grid
 
 set xlabel 'Sweep [-]'
 set ylabel 'Pressure Drop [Nm]'
-#set yrange [0.5:1.5]
+set yrange [9e-08:1.2e-07]
 
-set yrange [0:1.5e-07]
+#set yrange [0:1.5e-07]
 
 
 set xrange [0:10]
