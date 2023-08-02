@@ -35,5 +35,5 @@ plot '../adjointlogtable1.csv' using 1:2 with linespoints title '1 interval' , \
 '../adjointlogtable10.csv' using 1:2 with linespoints title '10 intervals' , \
 '../adjointlogtable14.csv' using 1:2 with linespoints title '14 intervals' , \
 '../adjointlogtable28.csv' using 1:2 with linespoints title '28 intervals' , \
-#'../adjointlogtable56.csv' using 1:2 with linespoints title '56 intervals' , \
+'../adjointlogtable56.csv' using 1:2 with linespoints title '56 intervals' , \
 #'../adjointlogtable100.csv' using 1:2 with linespoints title '100 intervals'

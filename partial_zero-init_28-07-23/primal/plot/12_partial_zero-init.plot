@@ -38,5 +38,5 @@ plot '../../1_intervals_26-07-23_zero-init/logtable1.csv' using 1:2 with linespo
 '../../56_intervals_26-07-23_zero-init/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
 '../../100_intervals_26-07-23_zero-init/logtable100.csv' using 1:2 with linespoints title '100 intervals',\
 
-set output '../image/12_primal_zero-init_partial.pdf'
+set output '../pdf/12_primal_zero-init_partial.pdf'
 replot
