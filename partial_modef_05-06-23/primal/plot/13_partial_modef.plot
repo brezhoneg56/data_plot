@@ -1,7 +1,7 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Momentum Defect [kg m/s]'
+set ylabel 'Induced Momentum Defect [kg m/s]'
 set yrange [0.0:20]
 #set xrange [0:531.622]
 

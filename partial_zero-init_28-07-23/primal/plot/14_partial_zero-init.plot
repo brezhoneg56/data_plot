@@ -1,8 +1,8 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Continuity Defect [kg m/s]'
-#set yrange [0:1.5e-07]
+set ylabel 'Induced Continuity Defect [kg m/s]'
+#set yrange [0:1.2e08]
 #set xrange [0:531.622]
 
 ## Labels
@@ -22,6 +22,7 @@ set key top right
 #set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
 
 #set pointintervalbox 1.4
+set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output '../eps/14_primal_zero-init_partial.eps'

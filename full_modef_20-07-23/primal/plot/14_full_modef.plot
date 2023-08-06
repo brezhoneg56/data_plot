@@ -1,8 +1,8 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Continuity Defect [kg m/s]'
-#set yrange [0:1.5e-07]
+set ylabel 'Induced Continuity Defect [kg m/s]'
+set yrange [0:3e7]
 #set xrange [0:531.622]
 
 ## Labels
@@ -13,7 +13,7 @@ set ylabel 'Continuity Defect [kg m/s]'
 # 5 : WallTime for PimpelDyMFoam [s]
 # 6 : Total Accumulated WallTime [s]
 
-set key bottom right
+set key top left
 
 #set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
 #set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9

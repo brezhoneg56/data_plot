@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.26)  3 AUG 2023 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.26)  6 AUG 2023 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1550,37 +1550,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 Package layouts Warning: Layout scale set to 0.5 on input line 77.
 
-Package epstopdf Info: Source file: <62_primal_modef_partial_zoom.eps>
-(epstopdf)                    date: 2023-07-31 17:46:23
-(epstopdf)                    size: 27242 bytes
-(epstopdf)             Output file: <62_primal_modef_partial_zoom-eps-converted
--to.pdf>
-(epstopdf)                    date: 2023-08-01 10:38:35
-(epstopdf)                    size: 8525 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=62_primal_modef_part
-ial_zoom-eps-converted-to.pdf 62_primal_modef_partial_zoom.eps>
-(epstopdf)             \includegraphics on input line 80.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./62_primal_modef_partial_zoom-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<62_primal_modef_partial_zoom-eps-converted-to.pdf, id=42, 361.35pt x 252.945pt
->
-File: 62_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 62_primal_modef_partial_zoom-eps-converted-to.pdf>
-Package pdftex.def Info: 62_primal_modef_partial_zoom-eps-converted-to.pdf  use
-d on input line 80.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 Package epstopdf Info: Source file: <14_primal_modef_partial.eps>
-(epstopdf)                    date: 2023-07-31 17:45:01
-(epstopdf)                    size: 33917 bytes
+(epstopdf)                    date: 2023-08-06 16:13:43
+(epstopdf)                    size: 35028 bytes
 (epstopdf)             Output file: <14_primal_modef_partial-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-08-01 10:38:35
-(epstopdf)                    size: 13564 bytes
+(epstopdf)                    date: 2023-08-06 16:14:59
+(epstopdf)                    size: 14843 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=14_primal_modef_part
 ial-eps-converted-to.pdf 14_primal_modef_partial.eps>
 (epstopdf)             \includegraphics on input line 81.
@@ -1589,222 +1565,174 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./14_primal_modef_partial-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<14_primal_modef_partial-eps-converted-to.pdf, id=43, 361.35pt x 252.945pt>
+<14_primal_modef_partial-eps-converted-to.pdf, id=42, 361.35pt x 252.945pt>
 File: 14_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
 <use 14_primal_modef_partial-eps-converted-to.pdf>
 Package pdftex.def Info: 14_primal_modef_partial-eps-converted-to.pdf  used on 
 input line 81.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 Package epstopdf Info: Source file: <14_primal_modef_partial_zoom.eps>
-(epstopdf)                    date: 2023-07-31 17:47:43
-(epstopdf)                    size: 28119 bytes
+(epstopdf)                    date: 2023-08-06 16:28:07
+(epstopdf)                    size: 27897 bytes
 (epstopdf)             Output file: <14_primal_modef_partial_zoom-eps-converted
 -to.pdf>
+(epstopdf)                    date: 2023-08-06 16:14:59
+(epstopdf)                    size: 9734 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=14_primal_modef_part
 ial_zoom-eps-converted-to.pdf 14_primal_modef_partial_zoom.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 83.
 runsystem(miktex-epstopdf --outfile=14_primal_modef_partial_zoom-eps-converted-
 to.pdf 14_primal_modef_partial_zoom.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <14_primal_modef_partial_zoom-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2023-08-03 12:44:34
-(epstopdf)                    size: 9345 bytes.
+(epstopdf)                    date: 2023-08-06 16:28:48
+(epstopdf)                    size: 9734 bytes.
 
 
 pdfTeX warning: pdflatex (file ./14_primal_modef_partial_zoom-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<14_primal_modef_partial_zoom-eps-converted-to.pdf, id=44, 361.35pt x 252.945pt
+<14_primal_modef_partial_zoom-eps-converted-to.pdf, id=43, 361.35pt x 252.945pt
 >
 File: 14_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 14_primal_modef_partial_zoom-eps-converted-to.pdf>
 Package pdftex.def Info: 14_primal_modef_partial_zoom-eps-converted-to.pdf  use
-d on input line 82.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-Package epstopdf Info: Source file: <15_primal_modef_partial.eps>
-(epstopdf)                    date: 2023-07-31 17:44:32
-(epstopdf)                    size: 32940 bytes
-(epstopdf)             Output file: <15_primal_modef_partial-eps-converted-to.p
-df>
-(epstopdf)                    date: 2023-08-01 10:38:35
-(epstopdf)                    size: 13765 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=15_primal_modef_part
-ial-eps-converted-to.pdf 15_primal_modef_partial.eps>
-(epstopdf)             \includegraphics on input line 83.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./15_primal_modef_partial-eps-converted-to.pdf):
- PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<15_primal_modef_partial-eps-converted-to.pdf, id=45, 361.35pt x 252.945pt>
-File: 15_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
-<use 15_primal_modef_partial-eps-converted-to.pdf>
-Package pdftex.def Info: 15_primal_modef_partial-eps-converted-to.pdf  used on 
-input line 83.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-Package epstopdf Info: Source file: <62_primal_modef_partial.eps>
-(epstopdf)                    date: 2023-07-31 17:43:19
-(epstopdf)                    size: 33818 bytes
-(epstopdf)             Output file: <62_primal_modef_partial-eps-converted-to.p
-df>
-(epstopdf)                    date: 2023-08-01 10:38:36
-(epstopdf)                    size: 13037 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=62_primal_modef_part
-ial-eps-converted-to.pdf 62_primal_modef_partial.eps>
-(epstopdf)             \includegraphics on input line 84.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./62_primal_modef_partial-eps-converted-to.pdf):
- PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<62_primal_modef_partial-eps-converted-to.pdf, id=46, 361.35pt x 252.945pt>
-File: 62_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
-<use 62_primal_modef_partial-eps-converted-to.pdf>
-Package pdftex.def Info: 62_primal_modef_partial-eps-converted-to.pdf  used on 
-input line 84.
+d on input line 83.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 Package epstopdf Info: Source file: <13_primal_modef_partial.eps>
-(epstopdf)                    date: 2023-07-31 17:40:33
-(epstopdf)                    size: 27309 bytes
+(epstopdf)                    date: 2023-08-06 16:08:56
+(epstopdf)                    size: 32533 bytes
 (epstopdf)             Output file: <13_primal_modef_partial-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-08-01 10:38:36
-(epstopdf)                    size: 9490 bytes
+(epstopdf)                    date: 2023-08-06 16:14:59
+(epstopdf)                    size: 13908 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=13_primal_modef_part
 ial-eps-converted-to.pdf 13_primal_modef_partial.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./13_primal_modef_partial-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<13_primal_modef_partial-eps-converted-to.pdf, id=47, 361.35pt x 252.945pt>
+<13_primal_modef_partial-eps-converted-to.pdf, id=44, 361.35pt x 252.945pt>
 File: 13_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
 <use 13_primal_modef_partial-eps-converted-to.pdf>
 Package pdftex.def Info: 13_primal_modef_partial-eps-converted-to.pdf  used on 
-input line 85.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-Package epstopdf Info: Source file: <13_primal_modef_partial_zoom.eps>
-(epstopdf)                    date: 2023-07-31 17:40:33
-(epstopdf)                    size: 27037 bytes
-(epstopdf)             Output file: <13_primal_modef_partial_zoom-eps-converted
--to.pdf>
-(epstopdf)                    date: 2023-08-01 10:38:36
-(epstopdf)                    size: 8557 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=13_primal_modef_part
-ial_zoom-eps-converted-to.pdf 13_primal_modef_partial_zoom.eps>
-(epstopdf)             \includegraphics on input line 86.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./13_primal_modef_partial_zoom-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<13_primal_modef_partial_zoom-eps-converted-to.pdf, id=48, 361.35pt x 252.945pt
->
-File: 13_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 13_primal_modef_partial_zoom-eps-converted-to.pdf>
-Package pdftex.def Info: 13_primal_modef_partial_zoom-eps-converted-to.pdf  use
-d on input line 86.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-Package epstopdf Info: Source file: <12_primal_modef_partial.eps>
-(epstopdf)                    date: 2023-07-31 17:40:33
-(epstopdf)                    size: 34560 bytes
-(epstopdf)             Output file: <12_primal_modef_partial-eps-converted-to.p
-df>
-(epstopdf)                    date: 2023-08-01 10:38:37
-(epstopdf)                    size: 14581 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=12_primal_modef_part
-ial-eps-converted-to.pdf 12_primal_modef_partial.eps>
-(epstopdf)             \includegraphics on input line 87.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./12_primal_modef_partial-eps-converted-to.pdf):
- PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<12_primal_modef_partial-eps-converted-to.pdf, id=49, 361.35pt x 252.945pt>
-File: 12_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
-<use 12_primal_modef_partial-eps-converted-to.pdf>
-Package pdftex.def Info: 12_primal_modef_partial-eps-converted-to.pdf  used on 
 input line 87.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-Package epstopdf Info: Source file: <12_primal_modef_partial_zoom.eps>
-(epstopdf)                    date: 2023-08-01 15:38:42
-(epstopdf)                    size: 27000 bytes
-(epstopdf)             Output file: <12_primal_modef_partial_zoom-eps-converted
--to.pdf>
-(epstopdf)                    date: 2023-08-01 15:38:55
-(epstopdf)                    size: 8341 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=12_primal_modef_part
-ial_zoom-eps-converted-to.pdf 12_primal_modef_partial_zoom.eps>
-(epstopdf)             \includegraphics on input line 88.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./12_primal_modef_partial_zoom-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<12_primal_modef_partial_zoom-eps-converted-to.pdf, id=50, 361.35pt x 252.945pt
->
-File: 12_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 12_primal_modef_partial_zoom-eps-converted-to.pdf>
-Package pdftex.def Info: 12_primal_modef_partial_zoom-eps-converted-to.pdf  use
-d on input line 88.
-(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-
-Overfull \hbox (312.74435pt too wide) in paragraph at lines 80--89
-[][] []
- []
-
-
-Overfull \hbox (312.74435pt too wide) in paragraph at lines 80--89
-[] []
- []
-
-
-Overfull \hbox (312.74435pt too wide) in paragraph at lines 80--89
-[] []
- []
-
-
-Overfull \hbox (312.74435pt too wide) in paragraph at lines 80--89
-[] []
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
-{/home/jcosson/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./62_primal_mo
-def_partial_zoom-eps-converted-to.pdf> <./14_primal_modef_partial-eps-converted
--to.pdf> <./14_primal_modef_partial_zoom-eps-converted-to.pdf> <./15_primal_mod
-ef_partial-eps-converted-to.pdf>]
+{/home/jcosson/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./14_primal_mo
+def_partial-eps-converted-to.pdf> <./14_primal_modef_partial_zoom-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <13_primal_modef_partial_zoom.eps>
+(epstopdf)                    date: 2023-08-06 16:28:02
+(epstopdf)                    size: 26863 bytes
+(epstopdf)             Output file: <13_primal_modef_partial_zoom-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2023-08-06 16:14:59
+(epstopdf)                    size: 8313 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=13_primal_modef_part
+ial_zoom-eps-converted-to.pdf 13_primal_modef_partial_zoom.eps>
+(epstopdf)             \includegraphics on input line 89.
+runsystem(miktex-epstopdf --outfile=13_primal_modef_partial_zoom-eps-converted-
+to.pdf 13_primal_modef_partial_zoom.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <13_primal_modef_partial_zoom-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2023-08-06 16:28:49
+(epstopdf)                    size: 8631 bytes.
+
+
+pdfTeX warning: pdflatex (file ./13_primal_modef_partial_zoom-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<13_primal_modef_partial_zoom-eps-converted-to.pdf, id=67, 361.35pt x 252.945pt
+>
+File: 13_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 13_primal_modef_partial_zoom-eps-converted-to.pdf>
+Package pdftex.def Info: 13_primal_modef_partial_zoom-eps-converted-to.pdf  use
+d on input line 89.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+Package epstopdf Info: Source file: <12_primal_modef_partial.eps>
+(epstopdf)                    date: 2023-08-06 16:08:48
+(epstopdf)                    size: 34585 bytes
+(epstopdf)             Output file: <12_primal_modef_partial-eps-converted-to.p
+df>
+(epstopdf)                    date: 2023-08-06 16:15:00
+(epstopdf)                    size: 14945 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=12_primal_modef_part
+ial-eps-converted-to.pdf 12_primal_modef_partial.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./12_primal_modef_partial-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<12_primal_modef_partial-eps-converted-to.pdf, id=68, 361.35pt x 252.945pt>
+File: 12_primal_modef_partial-eps-converted-to.pdf Graphic file (type pdf)
+<use 12_primal_modef_partial-eps-converted-to.pdf>
+Package pdftex.def Info: 12_primal_modef_partial-eps-converted-to.pdf  used on 
+input line 91.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./62_primal_modef_partial-eps-converted-to.pdf> <./13_primal_modef_partial
--eps-converted-to.pdf> <./13_primal_modef_partial_zoom-eps-converted-to.pdf> <.
-/12_primal_modef_partial-eps-converted-to.pdf>] [3 <./12_primal_modef_partial_z
-oom-eps-converted-to.pdf>] (eps-to-pdf.aux)
+ [2 <./13_primal_modef_partial-eps-converted-to.pdf> <./13_primal_modef_partial
+_zoom-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <12_primal_modef_partial_zoom.eps>
+(epstopdf)                    date: 2023-08-06 16:27:59
+(epstopdf)                    size: 27820 bytes
+(epstopdf)             Output file: <12_primal_modef_partial_zoom-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2023-08-06 16:15:00
+(epstopdf)                    size: 9274 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=12_primal_modef_part
+ial_zoom-eps-converted-to.pdf 12_primal_modef_partial_zoom.eps>
+(epstopdf)             \includegraphics on input line 93.
+runsystem(miktex-epstopdf --outfile=12_primal_modef_partial_zoom-eps-converted-
+to.pdf 12_primal_modef_partial_zoom.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <12_primal_modef_partial_zoom-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2023-08-06 16:28:49
+(epstopdf)                    size: 9586 bytes.
+
+
+pdfTeX warning: pdflatex (file ./12_primal_modef_partial_zoom-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<12_primal_modef_partial_zoom-eps-converted-to.pdf, id=81, 361.35pt x 252.945pt
+>
+File: 12_primal_modef_partial_zoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 12_primal_modef_partial_zoom-eps-converted-to.pdf>
+Package pdftex.def Info: 12_primal_modef_partial_zoom-eps-converted-to.pdf  use
+d on input line 93.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+[3 <./12_primal_modef_partial-eps-converted-to.pdf> <./12_primal_modef_partial_
+zoom-eps-converted-to.pdf>] (eps-to-pdf.aux)
 Package rerunfilecheck Info: File `eps-to-pdf.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39946 strings out of 476412
- 826212 string characters out of 5796219
- 1856851 words of memory out of 5000000
- 59625 multiletter control sequences out of 15000+600000
+ 39922 strings out of 476412
+ 825116 string characters out of 5796219
+ 1855851 words of memory out of 5000000
+ 59604 multiletter control sequences out of 15000+600000
  512585 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,106p,10639b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,106p,10639b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on eps-to-pdf.pdf (3 pages, 103897 bytes).
+Output written on eps-to-pdf.pdf (3 pages, 81910 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

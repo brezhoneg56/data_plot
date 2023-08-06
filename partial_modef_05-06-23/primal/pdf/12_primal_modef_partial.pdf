@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: ../pdf/12_primal_modef_partial.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
-%%CreationDate: Mon Jul 31 17:40:33 2023
+%%CreationDate: Sun Aug  6 16:08:48 2023
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Mon Jul 31 17:40:33 2023)
+  /CreationDate (Sun Aug  6 16:08:48 2023)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -978,7 +978,7 @@ LCb setrgbcolor
 LCb setrgbcolor
 171 2717 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 180.0 0.0 true true 0 (Pressure Drop [Nm])]
+[ [(Helvetica) 180.0 0.0 true true 0 (Dissipated Energy due to Pressure Drop [Nm])]
 ] -60.0 MCshow
 grestore
 /Helvetica findfont 180 scalefont setfont

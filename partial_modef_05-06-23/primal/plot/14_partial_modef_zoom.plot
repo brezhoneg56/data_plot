@@ -22,20 +22,19 @@ set key top right
 #set style line 4 lt 1 lc rgb "black" pi -1 pt 7 ps 0.6 lw 2.0
 
 #set pointintervalbox 1.4
+set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
 set output '../pdf/14_primal_modef_partial_zoom.pdf'
 
 
-plot '../../1_intervals_05-06-23/logtable1.csv' using (1:$4/1) with linespoints title '1 interval' , \
-'../../2_intervals_05-06-23/logtable2.csv' using (1:$4/2) with linespoints title '2 intervals' , \
-'../../3_intervals_05-06-23/logtable3.csv' using (1:$4/3) with linespoints title '3 intervals' , \
-'../../5_intervals_05-06-23/logtable5.csv' using (1:$4/5) with linespoints title '5 intervals' , \
-'../../7_intervals_05-06-23/logtable7.csv' using (1:$4/7) with linespoints title '7 intervals' , \
-'../../10_intervals_05-06-23/logtable10.csv' using (1:$4/10) with linespoints title '10 intervals' , \
-'../../14_intervals_05-06-23/logtable14.csv' using (1:$4/14) with linespoints title '14 intervals' ,
-
-
+plot '../../1_intervals_05-06-23/logtable1.csv' using 1:($4/1) with linespoints title '1 interval' , \
+'../../2_intervals_05-06-23/logtable2.csv' using 1:($4/2) with linespoints title '2 intervals' , \
+'../../3_intervals_05-06-23/logtable3.csv' using 1:($4/3) with linespoints title '3 intervals' , \
+'../../5_intervals_05-06-23/logtable5.csv' using 1:($4/5) with linespoints title '5 intervals' , \
+'../../7_intervals_05-06-23/logtable7.csv' using 1:($4/7) with linespoints title '7 intervals' , \
+'../../10_intervals_05-06-23/logtable10.csv' using 1:($4/10) with linespoints title '10 intervals', \
+'../../14_intervals_05-06-23/logtable14.csv' using 1:($4/14) with linespoints title '14 intervals'
 
 
 set output '../eps/14_primal_modef_partial_zoom.eps'

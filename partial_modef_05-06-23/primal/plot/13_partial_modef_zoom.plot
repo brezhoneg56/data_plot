@@ -3,7 +3,7 @@ set grid
 set xlabel 'Sweep [-]'
 set ylabel 'Node-Normalized Momentum Defect [kg m/s] / '
 set yrange [0.0:2.25]
-set xrange [0:10]
+set xrange [0:14]
 
 ## Labels
 # 1 : Sweep
@@ -32,7 +32,7 @@ plot '../../1_intervals_05-06-23/logtable1.csv' using 1:($3/2) with linespoints 
 '../../3_intervals_05-06-23/logtable3.csv' using 1:($3/3) with linespoints title '3 intervals' , \
 '../../5_intervals_05-06-23/logtable5.csv' using 1:($3/5) with linespoints title '5 intervals' , \
 '../../7_intervals_05-06-23/logtable7.csv' using 1:($3/7) with linespoints title '7 intervals' , \
-'../../10_intervals_05-06-23/logtable10.csv' using 1:($3/10) with linespoints title '10 intervals' \
+'../../10_intervals_05-06-23/logtable10.csv' using 1:($3/10) with linespoints title '10 intervals', \
 '../../14_intervals_05-06-23/logtable14.csv' using 1:($3/14) with linespoints title '14 intervals'
 
 

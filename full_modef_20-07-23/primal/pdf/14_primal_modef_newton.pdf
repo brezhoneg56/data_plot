@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: ../pdf/14_primal_modef_newton.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
-%%CreationDate: Mon Jul 31 17:16:03 2023
+%%CreationDate: Sun Aug  6 19:39:34 2023
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Mon Jul 31 17:16:03 2023)
+  /CreationDate (Sun Aug  6 19:39:34 2023)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -552,9 +552,7 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 1314 1290 M
-3338 0 V
-2115 0 R
-108 0 V
+5561 0 V
 stroke
 1.000 UL
 LTb
@@ -576,9 +574,7 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 1314 2004 M
-3338 0 V
-2115 0 R
-108 0 V
+5561 0 V
 stroke
 1.000 UL
 LTb
@@ -622,7 +618,9 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 1314 3431 M
-5561 0 V
+108 0 V
+2115 0 R
+3338 0 V
 stroke
 1.000 UL
 LTb
@@ -644,7 +642,9 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 1314 4145 M
-5561 0 V
+108 0 V
+2115 0 R
+3338 0 V
 stroke
 1.000 UL
 LTb
@@ -709,7 +709,9 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 2241 576 M
-0 4283 V
+0 2420 V
+0 1800 R
+0 63 V
 stroke
 1.000 UL
 LTb
@@ -730,7 +732,9 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 3168 576 M
-0 4283 V
+0 2420 V
+0 1800 R
+0 63 V
 stroke
 1.000 UL
 LTb
@@ -772,9 +776,7 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 5021 576 M
-0 63 V
-0 1800 R
-0 2420 V
+0 4283 V
 stroke
 1.000 UL
 LTb
@@ -795,9 +797,7 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 5948 576 M
-0 63 V
-0 1800 R
-0 2420 V
+0 4283 V
 stroke
 1.000 UL
 LTb
@@ -851,7 +851,7 @@ LCb setrgbcolor
 LCb setrgbcolor
 171 2717 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 180.0 0.0 true true 0 (Continuity Defect [kg m/s])]
+[ [(Helvetica) 180.0 0.0 true true 0 (Induced Continuity Defect [kg m/s])]
 ] -60.0 MCshow
 grestore
 /Helvetica findfont 180 scalefont setfont
@@ -868,7 +868,7 @@ LTb
 LTb
 LCb setrgbcolor
 LCb setrgbcolor
-6056 2349 M
+2826 4706 M
 [ [(Helvetica) 180.0 0.0 true true 0 (1 interval)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -876,11 +876,11 @@ LCb setrgbcolor
 1.000 UL
 LTb
 LCb setrgbcolor
-6164 2349 M
+2934 4706 M
 495 0 V
 1407 576 M
 1407 576 Pls
-6411 2349 Pls
+3181 4706 Pls
 % End plot #1
 % Begin plot #2
 1.000 UP
@@ -889,7 +889,7 @@ LTb
 LT1
 LCb setrgbcolor
 LCb setrgbcolor
-6056 2169 M
+2826 4526 M
 [ [(Helvetica) 180.0 0.0 true true 0 (2 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -898,13 +898,13 @@ LCb setrgbcolor
 LTb
 LT1
 LCb setrgbcolor
-6164 2169 M
+2934 4526 M
 495 0 V
 1407 576 M
 92 0 V
 1407 576 Pls
 1499 576 Pls
-6411 2169 Pls
+3181 4526 Pls
 % End plot #2
 % Begin plot #3
 1.000 UP
@@ -913,7 +913,7 @@ LTb
 LT2
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1989 M
+2826 4346 M
 [ [(Helvetica) 180.0 0.0 true true 0 (3 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -922,7 +922,7 @@ LCb setrgbcolor
 LTb
 LT2
 LCb setrgbcolor
-6164 1989 M
+2934 4346 M
 495 0 V
 1407 576 M
 92 566 V
@@ -930,7 +930,7 @@ LCb setrgbcolor
 1407 576 Pls
 1499 1142 Pls
 1592 576 Pls
-6411 1989 Pls
+3181 4346 Pls
 % End plot #3
 % Begin plot #4
 1.000 UP
@@ -939,7 +939,7 @@ LTb
 LT3
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1809 M
+2826 4166 M
 [ [(Helvetica) 180.0 0.0 true true 0 (5 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -948,7 +948,7 @@ LCb setrgbcolor
 LTb
 LT3
 LCb setrgbcolor
-6164 1809 M
+2934 4166 M
 495 0 V
 1407 576 M
 92 1342 V
@@ -960,7 +960,7 @@ LCb setrgbcolor
 1592 999 Pls
 1685 833 Pls
 1777 576 Pls
-6411 1809 Pls
+3181 4166 Pls
 % End plot #4
 % Begin plot #5
 1.000 UP
@@ -968,7 +968,7 @@ LCb setrgbcolor
 LTb
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1629 M
+2826 3986 M
 [ [(Helvetica) 180.0 0.0 true true 0 (7 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -976,7 +976,7 @@ LCb setrgbcolor
 2.000 UL
 LTb
 LCb setrgbcolor
-6164 1629 M
+2934 3986 M
 495 0 V
 1407 576 M
 92 1818 V
@@ -992,7 +992,7 @@ LCb setrgbcolor
 1777 950 Pls
 1870 772 Pls
 1963 576 Pls
-6411 1629 Pls
+3181 3986 Pls
 % End plot #5
 % Begin plot #6
 1.000 UP
@@ -1001,7 +1001,7 @@ LTb
 [8.0 dl1 4.0 dl2 1.0 dl1 2.5 dl2 1.0 dl1 2.5 dl2 1.0 dl1 4.0 dl2 ] 0 setdash
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1449 M
+2826 3806 M
 [ [(Helvetica) 180.0 0.0 true true 0 (10 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -1010,7 +1010,7 @@ LCb setrgbcolor
 LTb
 [8.0 dl1 4.0 dl2 1.0 dl1 2.5 dl2 1.0 dl1 2.5 dl2 1.0 dl1 4.0 dl2 ] 0 setdash
 LCb setrgbcolor
-6164 1449 M
+2934 3806 M
 495 0 V
 1407 576 M
 92 2124 V
@@ -1032,7 +1032,7 @@ LCb setrgbcolor
 2055 891 Pls
 2148 719 Pls
 2241 576 Pls
-6411 1449 Pls
+3181 3806 Pls
 % End plot #6
 % Begin plot #7
 1.000 UP
@@ -1041,7 +1041,7 @@ LTb
 LT6
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1269 M
+2826 3626 M
 [ [(Helvetica) 180.0 0.0 true true 0 (14 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -1050,7 +1050,7 @@ LCb setrgbcolor
 LTb
 LT6
 LCb setrgbcolor
-6164 1269 M
+2934 3626 M
 495 0 V
 1407 576 M
 92 2291 V
@@ -1080,7 +1080,7 @@ LCb setrgbcolor
 2426 803 CircleF
 2519 676 CircleF
 2612 576 CircleF
-6411 1269 CircleF
+3181 3626 CircleF
 % End plot #7
 % Begin plot #8
 1.000 UP
@@ -1089,7 +1089,7 @@ LTb
 LT7
 LCb setrgbcolor
 LCb setrgbcolor
-6056 1089 M
+2826 3446 M
 [ [(Helvetica) 180.0 0.0 true true 0 (28 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -1098,7 +1098,7 @@ LCb setrgbcolor
 LTb
 LT7
 LCb setrgbcolor
-6164 1089 M
+2934 3446 M
 495 0 V
 1407 576 M
 92 2281 V
@@ -1156,7 +1156,7 @@ LCb setrgbcolor
 3724 646 TriU
 3816 610 TriU
 3909 576 TriU
-6411 1089 TriU
+3181 3446 TriU
 % End plot #8
 % Begin plot #9
 1.000 UP
@@ -1165,7 +1165,7 @@ LTb
 LT8
 LCb setrgbcolor
 LCb setrgbcolor
-6056 909 M
+2826 3266 M
 [ [(Helvetica) 180.0 0.0 true true 0 (56 intervals)]
 ] -60.0 MRshow
 /Helvetica findfont 180 scalefont setfont
@@ -1174,7 +1174,7 @@ LCb setrgbcolor
 LTb
 LT8
 LCb setrgbcolor
-6164 909 M
+2934 3266 M
 495 0 V
 1407 576 M
 92 3828 V
@@ -1288,7 +1288,7 @@ LCb setrgbcolor
 6319 1455 TriUF
 6412 1276 TriUF
 6504 576 TriUF
-6411 909 TriUF
+3181 3266 TriUF
 % End plot #9
 % Begin plot #10
 1.000 UP

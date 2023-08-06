@@ -3,8 +3,8 @@ set grid
 #set title 'Plot Comparison over [1, 2, 3, 5, 7, 10, 14, 28, 56, 100] subintervals'
 
 set xlabel 'Sweep [-]'
-set ylabel 'Momentum Defect [kg m/s]'
-set yrange [0:20]
+set ylabel 'Induced Momentum Defect [kg m/s]'
+set yrange [0:25]
 #set xrange [0:531.622]
 
 ## Labels
@@ -36,7 +36,7 @@ plot '../../1_intervals_20-07_primal-adjoint/logtable1.csv' using 1:3 with lines
 '../../10_intervals_20-07_primal-adjoint/logtable10.csv' using 1:3 with linespoints title '10 intervals' , \
 '../../14_intervals_20-07_primal-adjoint/logtable14.csv' using 1:3 with linespoints title '14 intervals' , \
 '../../28_intervals_20-07_primal-adjoint/logtable28.csv' using 1:3 with linespoints title '28 intervals' , \
-#'../../56_intervals_20-07_primal-adjoint/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
+'../../56_intervals_20-07_primal-adjoint/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
 #'100_intervals_20-07_primal-adjoint/logtable100.csv' using 1:3 with linespoints title '100 intervals' 
 
 

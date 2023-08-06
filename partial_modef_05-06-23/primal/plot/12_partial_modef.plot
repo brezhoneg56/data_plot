@@ -1,7 +1,7 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Pressure Drop [Nm]'
+set ylabel 'Dissipated Energy due to Pressure Drop [Nm]'
 set yrange [0:1.5e-07]
 #set xrange [0:531.622]
 
