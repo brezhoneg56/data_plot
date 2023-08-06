@@ -27,8 +27,8 @@ plot '../../1_intervals_05-06-23/logtable1.csv' using 1:3 with linespoints title
 '../../10_intervals_05-06-23/logtable10.csv' using 1:3 with linespoints title '10 intervals' , \
 '../../14_intervals_05-06-23/logtable14.csv' using 1:3 with linespoints title '14 intervals' , \
 '../../28_intervals_05-06-23/logtable28.csv' using 1:3 with linespoints title '28 intervals' , \
-#'../../56_intervals_05-06-23/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
-#'../../100_intervals_05-06-23/logtable100.csv' using 1:3 with linespoints title '100 intervals'
+'../../56_intervals_05-06-23/logtable56.csv' using 1:3 with linespoints title '56 intervals' , \
+'../../100_intervals_05-06-23/logtable100.csv' using 1:3 with linespoints title '100 intervals'
 
 
 set output '../eps/13_primal_modef_partial.eps'

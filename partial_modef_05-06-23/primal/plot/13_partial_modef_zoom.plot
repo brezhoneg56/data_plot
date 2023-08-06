@@ -1,8 +1,8 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Momentum Defect [kg m/s]'
-set yrange [0.0:3]
+set ylabel 'Node-Normalized Momentum Defect [kg m/s] / '
+set yrange [0.0:2.25]
 set xrange [0:10]
 
 ## Labels
@@ -13,7 +13,7 @@ set xrange [0:10]
 # 5 : WallTime for PimpelDyMFoam
 # 6 : Total Accumulated WallTime
 
-set key bottom right
+set key top right
 
 #set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
 #set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9
@@ -32,7 +32,8 @@ plot '../../1_intervals_05-06-23/logtable1.csv' using 1:($3/2) with linespoints 
 '../../3_intervals_05-06-23/logtable3.csv' using 1:($3/3) with linespoints title '3 intervals' , \
 '../../5_intervals_05-06-23/logtable5.csv' using 1:($3/5) with linespoints title '5 intervals' , \
 '../../7_intervals_05-06-23/logtable7.csv' using 1:($3/7) with linespoints title '7 intervals' , \
-'../../10_intervals_05-06-23/logtable10.csv' using 1:($3/10) with linespoints title '10 intervals'
+'../../10_intervals_05-06-23/logtable10.csv' using 1:($3/10) with linespoints title '10 intervals' \
+'../../14_intervals_05-06-23/logtable14.csv' using 1:($3/14) with linespoints title '14 intervals'
 
 
 set output '../eps/13_primal_modef_partial_zoom.eps'

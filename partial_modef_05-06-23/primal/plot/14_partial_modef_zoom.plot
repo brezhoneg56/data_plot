@@ -1,7 +1,7 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Continuity Defect [kg m/s]'
+set ylabel 'Node-Normalized Continuity Defect [kg m/s]'
 #set yrange [0.0:0.042]
 #set xrange [0:531.622]
 
@@ -27,16 +27,14 @@ set terminal postscript eps 18 dashed lw 1 enhanced
 set output '../pdf/14_primal_modef_partial_zoom.pdf'
 
 
-plot '../../1_intervals_05-06-23/logtable1.csv' using 1:4 with linespoints title '1 interval' , \
-'../../2_intervals_05-06-23/logtable2.csv' using 1:4 with linespoints title '2 intervals' , \
-'../../3_intervals_05-06-23/logtable3.csv' using 1:4 with linespoints title '3 intervals' , \
-'../../5_intervals_05-06-23/logtable5.csv' using 1:4 with linespoints title '5 intervals' , \
-'../../7_intervals_05-06-23/logtable7.csv' using 1:4 with linespoints title '7 intervals' , \
-'../../10_intervals_05-06-23/logtable10.csv' using 1:4 with linespoints title '10 intervals' , \
-'../../14_intervals_05-06-23/logtable14.csv' using 1:4 with linespoints title '14 intervals' , \
-'../../28_intervals_05-06-23/logtable28.csv' using 1:4 with linespoints title '28 intervals' , \
-#'../../56_intervals_05-06-23/logtable56.csv' using 1:4 with linespoints title '56 intervals' , \
-#'../../100_intervals_05-06-23/logtable100.csv' using 1:4 with linespoints title '100 intervals'
+plot '../../1_intervals_05-06-23/logtable1.csv' using (1:$4/1) with linespoints title '1 interval' , \
+'../../2_intervals_05-06-23/logtable2.csv' using (1:$4/2) with linespoints title '2 intervals' , \
+'../../3_intervals_05-06-23/logtable3.csv' using (1:$4/3) with linespoints title '3 intervals' , \
+'../../5_intervals_05-06-23/logtable5.csv' using (1:$4/5) with linespoints title '5 intervals' , \
+'../../7_intervals_05-06-23/logtable7.csv' using (1:$4/7) with linespoints title '7 intervals' , \
+'../../10_intervals_05-06-23/logtable10.csv' using (1:$4/10) with linespoints title '10 intervals' , \
+'../../14_intervals_05-06-23/logtable14.csv' using (1:$4/14) with linespoints title '14 intervals' ,
+
 
 
 

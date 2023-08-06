@@ -29,7 +29,8 @@ plot '../../1_intervals_05-06-23/logtable1.csv' using 1:2 with linespoints title
 '../../3_intervals_05-06-23/logtable3.csv' using 1:2 with linespoints title '3 intervals' , \
 '../../5_intervals_05-06-23/logtable5.csv' using 1:2 with linespoints title '5 intervals' , \
 '../../7_intervals_05-06-23/logtable7.csv' using 1:2 with linespoints title '7 intervals' , \
-'../../10_intervals_05-06-23/logtable10.csv' using 1:2 with linespoints title '10 intervals'
+'../../10_intervals_05-06-23/logtable10.csv' using 1:2 with linespoints title '10 intervals' \
+'../../14_intervals_05-06-23/logtable14.csv' using 1:2 with linespoints title '14 intervals'
 
 set output '../eps/12_primal_modef_partial_zoom.eps'
 replot
