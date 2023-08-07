@@ -1,8 +1,8 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Continuity Defect [kg m/s]'
-#set yrange [0:1.5e-07]
+set ylabel 'Induced Continuity Defect [kg m/s]'
+set yrange [0:1.5e8]
 #set xrange [0:531.622]
 
 ## Labels

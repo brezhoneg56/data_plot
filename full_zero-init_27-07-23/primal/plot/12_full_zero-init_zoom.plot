@@ -1,9 +1,8 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Dissipated Energy du to Pressure Drop [Nm]'
-set yrange [5e-08:3.2e-07]
-#set yrange [0:3e-07]
+set ylabel 'Dissipated Energy du to PressureDrop [Nm]'
+set yrange [0.9e-07:3.2e-07]
 #set xrange [0:531.622]
 
 ## Labels
@@ -26,7 +25,7 @@ set key top right
 set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 
 set terminal postscript eps 18 dashed lw 1 enhanced 
-set output '../eps/12_primal_zero-init_newton.eps'
+set output '../eps/12_primal_zero-init_newton_zoom.eps'
 
 plot '../../1_intervals_26-07-23_zero-init/logtable1.csv' using 1:2 with linespoints title '1 intervals' , \
 '../../2_intervals_26-07-23_zero-init/logtable2.csv' using 1:2 with linespoints title '2 intervals' , \
@@ -35,10 +34,10 @@ plot '../../1_intervals_26-07-23_zero-init/logtable1.csv' using 1:2 with linespo
 '../../7_intervals_26-07-23_zero-init/logtable7.csv' using 1:2 with linespoints title '7 intervals' , \
 '../../10_intervals_26-07-23_zero-init/logtable10.csv' using 1:2 with linespoints title '10 intervals' , \
 '../../14_intervals_26-07-23_zero-init/logtable14.csv' using 1:2 with linespoints title '14 intervals' , \
-'../../28_intervals_26-07-23_zero-init/logtable28.csv' using 1:2 with linespoints title '28 intervals' , \
-'../../56_intervals_26-07-23_zero-init/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
-'../../100_intervals_26-07-23_zero-init/logtable100.csv' using 1:2 with linespoints title '100 intervals',\
+#'../../28_intervals_26-07-23_zero-init/logtable28.csv' using 1:2 with linespoints title '28 intervals' , \
+#'../../56_intervals_26-07-23_zero-init/logtable56.csv' using 1:2 with linespoints title '56 intervals' , \
+#'../../100_intervals_26-07-23_zero-init/logtable100.csv' using 1:2 with linespoints title '100 intervals',\
 
 
-set output '../pdf/12_primal_zero-init_newton.pdf'
+set output '../pdf/12_primal_zero-init_newton_zoom.pdf'
 replot
