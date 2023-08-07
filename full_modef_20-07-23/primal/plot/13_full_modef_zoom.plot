@@ -16,7 +16,7 @@ set xrange [0:14]
 # 6 : Total Accumulated WallTime [s]
 
 set key top right
-set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
+#set format y '%.1t{/Symbol \264}10^{%L}'  # Use \264 for ×
 #set style line 1 lc rgb 'black' lt 1 lw 4 pt 7 pi -1 ps 0.9
 #set style line 2 lc rgb 'black' lt 1 lw 1 pt 5 pi -1 ps 0.9
 #set style line 7 lc rgb 'black' lt 2 lw 1 pt 5 pi -1 ps 0.75
