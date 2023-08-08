@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: ../pdf/14_adjoint_modef_newton.pdf
 %%Creator: gnuplot 5.4 patchlevel 2
-%%CreationDate: Mon Jul 31 18:10:47 2023
+%%CreationDate: Tue Aug  8 15:26:07 2023
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -481,7 +481,7 @@ SDict begin [
   /Creator (gnuplot 5.4 patchlevel 2)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Mon Jul 31 18:10:47 2023)
+  /CreationDate (Tue Aug  8 15:26:07 2023)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -845,7 +845,7 @@ LCb setrgbcolor
 LCb setrgbcolor
 171 2717 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 180.0 0.0 true true 0 (Continuity Defect [kg m)]
+[ [(Helvetica) 180.0 0.0 true true 0 (Adjoint Induced Continuity Defect [kg m)]
 [(Helvetica) 144.0 90.0 true true 0 (2)]
 [(Helvetica) 180.0 0.0 true true 0 (/s])]
 ] -78.0 MCshow

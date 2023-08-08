@@ -1,7 +1,7 @@
 set grid
 
 set xlabel 'Sweep [-]'
-set ylabel 'Continuity Defect [kg m^2/s]'
+set ylabel 'Adjoint Induced Continuity Defect [kg m^2/s]'
 #set yrange [0:1.5e-07]
 #set xrange [0:531.622]
 
